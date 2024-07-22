@@ -103,7 +103,7 @@ nav a:hover{
 
 /********************* info-group *******/
 
-.info-group section{
+.info-group section, .info-group .search-bar{
     margin-bottom: 35px;
 }
 
@@ -194,11 +194,15 @@ font-size: 1.375rem;
     font-size: 1.125rem;
 }
 
-.filters button{
+.filters p{
+    margin: 0;
+}
+
+.filters div{
     display: flex;
     align-items: center;
     gap:10px;
-    height: 50px;
+    height: 38.8px;
     padding: 4px 19px;
     font-size: 1rem;
     font-weight: bold;
@@ -207,7 +211,7 @@ font-size: 1.375rem;
     border-radius: 25px;
 }
 
-.filters button:hover{
+.filters div:hover{
     background-color: var(--filter-bg-color);
 }
 
@@ -218,6 +222,7 @@ font-size: 1.375rem;
     align-items: center;
     gap: 10px;
     height: 24px;
+    margin-bottom: 35px;
 }
 
 .infobar p{
@@ -447,7 +452,7 @@ footer ul{
     padding-inline-start: 0px;
 }
 
-footer a{
+footer li{
  margin-top: 15px;
 }
 
@@ -582,7 +587,6 @@ footer a{
         align-items: flex-start;
         justify-content: center;
         width:100%;
-        padding: -50px;
         border-bottom: var(--main-bg-color) 2px solid;
     }
 
@@ -606,7 +610,6 @@ footer a{
 
     .search-bar{
         width:110%;
-        padding: -20px;
     }
 
     .search-input{
@@ -647,7 +650,7 @@ footer a{
         grid-column: 1/3;
     }
 
-    .filters button{
+    .filters div{
         font-size: 0.875rem;
     }
 
@@ -750,6 +753,10 @@ footer a{
 
     .activities-card .activities-text{
         justify-content: inherit;
+    }
+
+    .activities-text h3{
+        width: auto;
     }
 
 
