@@ -52,19 +52,17 @@
 
         /**** search-bar ****/
 
-    .search-bar{
-        width:110%;
-    }
-
-    .search-input{
-        width: 246px;
+    .search-bar form{
+        width: 102.5%;
+        max-width: 387px;
     }
 
     .search-button{
         border-radius: 15px;
         position: relative;
         right: 10px;
-        width: 47px;
+        min-width: 47px;
+        max-width: 47px;
         height: 47px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
@@ -83,10 +81,11 @@
 
     .filters{
         display: grid;
-        grid-template-columns: 162.5px 162.5px;
+        grid-template-columns: 48.5% 48.5%;
         grid-template-rows: auto 1fr 1fr;
         row-gap: 20px;
         column-gap: 10px;
+        max-width: 377px;
     }
 
     .filters h3{

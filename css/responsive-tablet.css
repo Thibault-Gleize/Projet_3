@@ -10,16 +10,29 @@
 
     /****** info-group ******/
 
+        /**** search-bar ****/
+
+    .search-button{
+        width: 131px;
+    }
+
+    .search-bar form{
+        width: 102.5%;
+        max-width: 377px;
+    }
+
+        /**** filters ****/
+
     .filters h3{       
-        width: 100%;
-        margin-block-start: 0px;
-        margin-block-end: 0px;
-        padding-bottom: 5px;
+    width: 100%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-bottom: 5px;
     }
 
     .filters{
-        flex-wrap: wrap;
-        height: auto;
+    flex-wrap: wrap;
+    height: auto;
     }
 
     /****** hebergements et populaire ******/

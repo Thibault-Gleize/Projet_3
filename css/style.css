@@ -132,14 +132,14 @@ font-size: 1.375rem;
     border: var(--main-bg-color) 1px solid;
     border-radius: 15px 0px 0px 15px;
     height: 47px;
-    width: 48px;
+    min-width: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .search-input{
-    width: 194px;
+    width: 70%;
     height: 47px;
     padding: 0px;
     border-left: var(--main-bg-color) 1px solid;
