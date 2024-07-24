@@ -71,13 +71,12 @@
     /****** activities *******/
 
     .activities-card article img{
-        width: 193.5px;
+        width: 100%;
         height: 200px;
     }
 
-    .activities-card article{
-        width: 193.5px;
-        height: 270px;
+    .activities-card a{
+        width: 25%;
     }
 
     .activities-card .activities-text{
@@ -85,7 +84,7 @@
     }
 
     .activities-text h3{
-        width: 155px;
+        width: 100%;
     }
 
 
