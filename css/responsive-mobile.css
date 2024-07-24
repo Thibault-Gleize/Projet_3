@@ -135,6 +135,10 @@
         background-color: inherit;
     }
 
+    .hebergements-cards{
+        display: flex;
+    }
+
     .hebergements-cards, .see-more{
         flex-direction: column;
         gap: 15px;

@@ -274,9 +274,11 @@ font-size: 1.375rem;
 }
 
 .hebergements-cards{
-    display: flex;
-    flex-wrap: wrap;
-    gap:30px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
 }
 
 .hebergements-cards img{
@@ -288,7 +290,7 @@ font-size: 1.375rem;
 
 .hebergements-cards a{
     height: 207.25px;
-    width: 33%;
+    text-wrap: nowrap;
 }
 
 .hebergements-cards .card-content{
