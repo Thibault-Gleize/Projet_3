@@ -109,7 +109,7 @@ nav a:hover{
 
     /**** headline ****/
 
-.headline h2{
+.headline h1{
 margin: 0px 0px 8px 0px;
 font-size: 1.375rem;
 }
@@ -191,7 +191,7 @@ font-size: 1.375rem;
     gap: 15px;
 }
 
-.filters h3{
+.filters h2{
     font-size: 1.125rem;
 }
 
